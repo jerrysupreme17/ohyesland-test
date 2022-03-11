@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FLOOR
+  - YESMAN
+  - CABLE
+  - GOAL
+  - TRIGGER1
+  - GAMEMANAGER
+  - FAILUI
+  - TIMERBAR
+  - TOTALSCORE
+  - WATERBALL
+  - BULLET
+  - YESER
+  - BALLONS
+  - SMOKELINE
+  - WALL
+  - SMALL
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - TOP
+  - 2
+  - 3
+  - 4
+  - 5
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 4
+    uniqueID: 714398659
+    locked: 0
+  - name: 3
+    uniqueID: 2917733953
+    locked: 0
+  - name: 2
+    uniqueID: 2659256965
+    locked: 0
+  - name: TOP
+    uniqueID: 990129995
+    locked: 0
