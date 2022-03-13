@@ -12,7 +12,7 @@ public class GAMEMANAGER : MonoBehaviour
     //public GameObject object5;// 這裡只是假設我需要一個個抓取物件來當作過關的判斷
 
 
-    public int yes = 0; // 可能會用到
+    public float yes = 0; // 可能會用到
     public GameObject CompleteUI;
 
     public GameObject FailUI;
@@ -34,7 +34,7 @@ public class GAMEMANAGER : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(yes);
 
         if(Input.GetKey(KeyCode.O))
         {

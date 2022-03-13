@@ -13,6 +13,8 @@ public class ROLLMAN : MonoBehaviour
 
     public float jumpSpeed = 300;
 
+    private GameObject currentTeleporter;
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +48,14 @@ public class ROLLMAN : MonoBehaviour
 
 
         }
+        if(Input.GetKey(KeyCode.Space))
+        { 
+        if(currentTeleporter != null)
+        {
+            transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
+        }
     }
+}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -57,4 +66,24 @@ public class ROLLMAN : MonoBehaviour
 
         
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("TP"))
+        {
+            currentTeleporter = collision.gameObject;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.CompareTag("TP"))
+        {
+            if(collision.gameObject == currentTeleporter)
+            {
+                currentTeleporter = null;
+            }
+        }
+    }
+
 }

@@ -46,6 +46,11 @@ public class STATICGOAL : MonoBehaviour
             GM.Win();
         }
 
+        if(collision.tag == "YESMAN")
+        {
+            GM.yes += 0.5f;
+        }
+
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -81,6 +86,12 @@ public class STATICGOAL : MonoBehaviour
         if (collision.collider.tag =="BULLET" || collision.collider.tag == "YESMAN")
         {
             GM.Win();
+            SFX1.Play();
+        }
+
+        if (collision.collider.tag =="YESMANSQUARE")
+        {
+            GM.yes += 0.5f;
             SFX1.Play();
         }
     }
