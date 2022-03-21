@@ -37,7 +37,7 @@ public class SHOOTER : MonoBehaviour
         }
 
 
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
 
             Instantiate(bullet, firePoint.position,firePoint.rotation);

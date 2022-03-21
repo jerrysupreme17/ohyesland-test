@@ -405,7 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 113251965}
   timeNow: 0
-  WinTime: 12
+  WinTime: 10.5
 --- !u!82 &36009038
 AudioSource:
   m_ObjectHideFlags: 0

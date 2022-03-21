@@ -48,7 +48,7 @@ public class ROLLMAN : MonoBehaviour
 
 
         }
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         { 
         if(currentTeleporter != null)
         {

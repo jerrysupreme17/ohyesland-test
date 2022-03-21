@@ -47,7 +47,7 @@ public class MUSICBOX : MonoBehaviour
         {
             TitleMode();
         }
-        else if(SceneManager.GetActiveScene().name =="10 ARCADE END")
+        else if(SceneManager.GetActiveScene().name =="15 ARCADE END")
         {
             EndMode();
         }

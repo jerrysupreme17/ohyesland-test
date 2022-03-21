@@ -18,6 +18,9 @@ public class ARCADE_END : MonoBehaviour
 
     public GameObject BadText;
 
+    public GameObject VeryBadText;
+
+
     float FunScore =0;
 
     void Start()
@@ -60,18 +63,22 @@ public class ARCADE_END : MonoBehaviour
         } */
         
 
-        if (finalScore > 38000)
+        if (finalScore > 50000)
         {
             GoodText.SetActive(true);
         }
-        else if (finalScore < 38000 && finalScore > 22000)
+        else if (finalScore < 50000 && finalScore > 35000)
         {
             DecentText.SetActive(true);
         }
-        else if (finalScore < 22000)
+        else if (finalScore < 35000 && finalScore > 20000)
         {
             BadText.SetActive(true);
         } 
+        else if (finalScore < 20000)
+        {
+            VeryBadText.SetActive(true);
+        }
     }
 
     public void BackToMenu()

@@ -9,18 +9,33 @@ EditorBuildSettings:
     path: Assets/SCENE/MENU.unity
     guid: 9a49926ef8a46a0488eecf6fd2fdc151
   - enabled: 1
-    path: Assets/SCENE/7 SPIN WHEEL.unity
-    guid: 6f9c4ebb5c7d4ae48b3f24210c9c47ce
+    path: Assets/SCENE/1 SHOOT 1.unity
+    guid: 205d08e5f49b304429381b45b3caf8d5
   - enabled: 1
-    path: Assets/SCENE/8 GHOST CUP.unity
+    path: Assets/SCENE/2 SMOKING 2.unity
+    guid: f3d49f61acf16264399932db69df00ce
+  - enabled: 1
+    path: Assets/SCENE/2.5 CAFE GHOST.unity
     guid: 60f05dffae03d0440a49742e880dfc88
   - enabled: 1
-    path: Assets/SCENE/9 BALANCE SHIP.unity
-    guid: 8b9534814b23fca498e5badccdfd1137
+    path: Assets/SCENE/3 KICKBALL.unity
+    guid: 53d60fbd8b341b546bf7103530dcd7f4
   - enabled: 1
-    path: Assets/SCENE/10X  MUSIC ELECTIRC.unity
+    path: Assets/SCENE/3.5 MUSIC ELECTIRC.unity
     guid: 5a399cf18e1204c49ac5cd8464552354
   - enabled: 1
+    path: Assets/SCENE/8.unity
+    guid: 8651324cd0d33f749bbffbf58b6eed46
+  - enabled: 1
+    path: Assets/SCENE/5 WHEEL.unity
+    guid: 6f9c4ebb5c7d4ae48b3f24210c9c47ce
+  - enabled: 1
+    path: Assets/SCENE/6 PUSH KART 1.unity
+    guid: d64edbcf76d58604caba49c67c3e8692
+  - enabled: 1
+    path: Assets/SCENE/6.5 SHIP.unity
+    guid: 8b9534814b23fca498e5badccdfd1137
+  - enabled: 0
     path: Assets/SCENE/11 KILL GHOST.unity
     guid: 8888a9c59f081624c9f921ab138a7347
   - enabled: 1
