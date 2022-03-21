@@ -1,0 +1,44 @@
+{
+    "name": "Cube_Control",
+    "maps": [
+        {
+            "name": "YES_CUBE",
+            "id": "3e97192c-0665-4983-a5ee-5f78885c0e3c",
+            "actions": [
+                {
+                    "name": "MOVE",
+                    "type": "Value",
+                    "id": "31b6698d-e901-43ac-8558-ef7349390d4a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b783a9bd-cb6c-4e0d-b03f-9103aeaf2a70",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c790dc0c-0e8e-4a16-9368-d2a256777a7a",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MOVE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

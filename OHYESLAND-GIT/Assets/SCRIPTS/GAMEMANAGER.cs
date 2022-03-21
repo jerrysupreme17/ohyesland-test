@@ -36,6 +36,14 @@ public class GAMEMANAGER : MonoBehaviour
     {
         Debug.Log(yes);
 
+        if(CompleteUI.activeSelf)
+        {
+            if(Input.GetKey(KeyCode.Return))
+            {
+                LoadNextScene();
+            }
+        }
+
         if(Input.GetKey(KeyCode.O))
         {
             LoadNextScene();
