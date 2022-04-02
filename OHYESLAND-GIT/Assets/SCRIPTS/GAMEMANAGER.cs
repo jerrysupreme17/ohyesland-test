@@ -9,10 +9,10 @@ public class GAMEMANAGER : MonoBehaviour
     //public GameObject object2;
     //public GameObject object3;
     //public GameObject object4;
-    //public GameObject object5;// 這裡只是假設我需要一個個抓取物件來當作過關的判斷
+    //public GameObject object5;// 嚙緻嚙諒只嚙瞌嚙踝蕭嚙稽嚙誹需要嚙瑾嚙諉個改蕭嚙踝蕭嚙踝蕭嚙諉瘀蕭@嚙盤嚙踝蕭嚙踝蕭嚙瞑嚙稻
 
 
-    public float yes = 0; // 可能會用到
+    public float yes = 0; // 嚙箠嚙踝蕭|嚙諄剁蕭
     public GameObject CompleteUI;
 
     public GameObject FailUI;
@@ -36,6 +36,7 @@ public class GAMEMANAGER : MonoBehaviour
     {
         Debug.Log(yes);
 
+        /*
         if(CompleteUI.activeSelf)
         {
             if(Input.GetKey(KeyCode.Return))
@@ -43,6 +44,7 @@ public class GAMEMANAGER : MonoBehaviour
                 LoadNextScene();
             }
         }
+        */
 
         if(Input.GetKey(KeyCode.O))
         {

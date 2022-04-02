@@ -21,11 +21,11 @@ EditorBuildSettings:
     path: Assets/SCENE/3 KICKBALL.unity
     guid: 53d60fbd8b341b546bf7103530dcd7f4
   - enabled: 1
-    path: Assets/SCENE/3.5 MUSIC ELECTIRC.unity
-    guid: 5a399cf18e1204c49ac5cd8464552354
-  - enabled: 1
     path: Assets/SCENE/8.unity
     guid: 8651324cd0d33f749bbffbf58b6eed46
+  - enabled: 1
+    path: Assets/SCENE/3.7 BIKE.unity
+    guid: b9763ecf60988fb4db4117478e1b049b
   - enabled: 1
     path: Assets/SCENE/5 WHEEL.unity
     guid: 6f9c4ebb5c7d4ae48b3f24210c9c47ce
@@ -35,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENE/6.5 SHIP.unity
     guid: 8b9534814b23fca498e5badccdfd1137
-  - enabled: 0
-    path: Assets/SCENE/11 KILL GHOST.unity
-    guid: 8888a9c59f081624c9f921ab138a7347
   - enabled: 1
     path: Assets/SCENE/15 ARCADE END.unity
     guid: ed6fdc3b7d2177d4c93d68c9a5e08869

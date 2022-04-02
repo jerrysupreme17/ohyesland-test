@@ -12,6 +12,8 @@ public class ARCADE_END : MonoBehaviour
 
     public TextMeshProUGUI RankText;
 
+    public GameObject VeryGoodText;
+
     public GameObject GoodText;
 
     public GameObject DecentText;
@@ -63,11 +65,16 @@ public class ARCADE_END : MonoBehaviour
         } */
         
 
-        if (finalScore > 50000)
+        if(finalScore > 57000)
+        {
+            VeryGoodText.SetActive(true);
+        }
+
+        if (finalScore < 57000 && finalScore > 48000)
         {
             GoodText.SetActive(true);
         }
-        else if (finalScore < 50000 && finalScore > 35000)
+        else if (finalScore < 48000 && finalScore > 35000)
         {
             DecentText.SetActive(true);
         }
