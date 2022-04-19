@@ -29,6 +29,7 @@ public class BULLET : MonoBehaviour
     {
         BALLONS ballons = hitInfo.GetComponent<BALLONS>();
         GAMEMANAGER GM = gm.GetComponent<GAMEMANAGER>();
+        MRNO mrno = hitInfo.GetComponent<MRNO>();
 
         // Debug.Log(hitInfo.name);
 
@@ -38,13 +39,10 @@ public class BULLET : MonoBehaviour
             ballons.Die();
         }
 
-        /*if(hitInfo.tag =="SMALL")
+        if(hitInfo.tag =="MRNO")
         {
-            GM.Lose();
+            mrno.Hurt();
         }
-
-        */
-
 
         Destroy(gameObject);
 

@@ -22,6 +22,7 @@ TagManager:
   - SMALL
   - YESMANSQUARE
   - TP
+  - MRNO
   layers:
   - Default
   - TransparentFX
