@@ -66,7 +66,7 @@ public class STATICGOAL : MonoBehaviour
         if(collision.tag == "BULLET")
         {
             GM.Win();
-            SFX1.Play();
+            //SFX1.Play();
         }
     }
 

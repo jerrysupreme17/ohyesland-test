@@ -23,7 +23,7 @@ public class SCORES : MonoBehaviour
 
     public GameObject gameManager;
 
-
+    bool count = true;
 
     // Start is called before the first frame update
     void Start()
@@ -36,9 +36,14 @@ public class SCORES : MonoBehaviour
     void Update()
     {
 
+        if(SceneManager.GetActiveScene().name == "B5 ESCAPE")
+        {
+            count = false;
+        }
+
         GAMEMANAGER GM = gameManager.GetComponent<GAMEMANAGER>();
 
-        if(GM.yes <5 && !Input.GetKey(KeyCode.P)  )
+        if(GM.yes <5 && !Input.GetKey(KeyCode.P) && count == true )
         {
             currentTime -= 1f * Time.deltaTime;
 

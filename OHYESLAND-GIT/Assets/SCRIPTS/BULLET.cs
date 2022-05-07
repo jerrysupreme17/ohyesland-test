@@ -44,6 +44,11 @@ public class BULLET : MonoBehaviour
             mrno.Hurt();
         }
 
+        if(hitInfo.tag =="GHOST")
+        {
+            //Destroy(hitInfo.gameObject);
+        }
+
         Destroy(gameObject);
 
     }

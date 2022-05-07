@@ -23,6 +23,11 @@ TagManager:
   - YESMANSQUARE
   - TP
   - MRNO
+  - APPLE
+  - BOMB
+  - NORMAL
+  - GHOST
+  - MRNO_BIG
   layers:
   - Default
   - TransparentFX
