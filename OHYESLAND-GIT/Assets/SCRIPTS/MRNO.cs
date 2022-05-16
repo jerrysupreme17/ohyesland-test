@@ -10,6 +10,7 @@ public class MRNO : MonoBehaviour
     public float speed = 5f;
 
     public float big_speed = 0f;
+    public float big_superspeed = 1f;
     public AudioSource SFX;
 
     // Start is called before the first frame update
@@ -35,7 +36,7 @@ public class MRNO : MonoBehaviour
     private void FixedUpdate()
     {
 
-        big_speed += Time.deltaTime;
+        big_speed += Time.deltaTime * big_superspeed;
         if(gameObject.tag =="MRNO_BIG")
         {
             transform.Translate(big_speed * Time.deltaTime, 0,0 );

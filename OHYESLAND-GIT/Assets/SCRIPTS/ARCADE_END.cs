@@ -22,6 +22,11 @@ public class ARCADE_END : MonoBehaviour
 
     public GameObject VeryBadText;
 
+    public float BottonRank;
+    public float LowRank;
+    public float MidRank;
+    public float HighRank;
+
 
     float FunScore =0;
 
@@ -65,24 +70,24 @@ public class ARCADE_END : MonoBehaviour
         } */
         
 
-        if(finalScore > 57000)
+        if(finalScore > HighRank)
         {
             VeryGoodText.SetActive(true);
         }
 
-        if (finalScore < 57000 && finalScore > 48000)
+        if (finalScore < HighRank && finalScore > MidRank)
         {
             GoodText.SetActive(true);
         }
-        else if (finalScore < 48000 && finalScore > 35000)
+        else if (finalScore < MidRank && finalScore > LowRank)
         {
             DecentText.SetActive(true);
         }
-        else if (finalScore < 35000 && finalScore > 20000)
+        else if (finalScore < LowRank && finalScore > BottonRank)
         {
             BadText.SetActive(true);
         } 
-        else if (finalScore < 20000)
+        else if (finalScore < BottonRank)
         {
             VeryBadText.SetActive(true);
         }

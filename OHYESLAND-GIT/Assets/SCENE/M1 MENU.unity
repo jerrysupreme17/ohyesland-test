@@ -1728,7 +1728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u6545\u4E8B\u6A21\u5F0F"
+  m_text: "(\u66AB\u6642\u6C92\u6709)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c2ab2ef4b1d8dd41b354c9791998524, type: 2}
   m_sharedMaterial: {fileID: -2337419507311404849, guid: 5c2ab2ef4b1d8dd41b354c9791998524, type: 2}
@@ -2598,7 +2598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u8857\u6A5F\u6A21\u5F0F"
+  m_text: "\u7D93\u5178\u6A21\u5F0F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9748864b19ececd47b7ce55c6d9ab54a, type: 2}
   m_sharedMaterial: {fileID: 1832319418171072801, guid: 9748864b19ececd47b7ce55c6d9ab54a, type: 2}

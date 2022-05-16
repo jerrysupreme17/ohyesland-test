@@ -11,9 +11,12 @@ public class VIBRATER : MonoBehaviour
 
     public float speed = 5f;
     float intensity =0.05f;
+
+    Vector2 startPos;
     void Start()
     {
-        
+        startPos.x = transform.position.x;
+        startPos.y = transform.position.y;
     }
 
     // Update is called once per frame
@@ -25,10 +28,7 @@ public class VIBRATER : MonoBehaviour
         transform.localPosition = intensity * new Vector3(x, y, transform.localPosition.z);
 
 
-        //transform.localPosition = intensity * new Vector3(
-        //    Mathf.PerlinNoise(speed * Time.deltaTime, 1),
-        //    Mathf.PerlinNoise(speed * Time.deltaTime, 2),
-        //    Mathf.PerlinNoise(speed * Time.deltaTime, 3));
+
         }
 
 

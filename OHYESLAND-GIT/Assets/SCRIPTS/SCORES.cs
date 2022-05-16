@@ -12,7 +12,7 @@ public class SCORES : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI scoreText;
 
-    float limitTime = 12.3f;
+    public float limitTime = 12.3f;
     public float currentTime;
 
     //public GameObject TimerBarAll;
@@ -36,7 +36,7 @@ public class SCORES : MonoBehaviour
     void Update()
     {
 
-        if(SceneManager.GetActiveScene().name == "B5 ESCAPE")
+        if(SceneManager.GetActiveScene().name == "B5 ESCAPE" || SceneManager.GetActiveScene().name == "Z FINAL")
         {
             count = false;
         }
