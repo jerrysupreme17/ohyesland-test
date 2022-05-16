@@ -11,6 +11,8 @@ public class MUSICBOX : MonoBehaviour
 
     public AudioSource EndSong;
 
+    public AudioSource CutSong;
+
     // Start is called before the first frame update
 
 
@@ -47,10 +49,19 @@ public class MUSICBOX : MonoBehaviour
         {
             TitleMode();
         }
-        else if(SceneManager.GetActiveScene().name =="15 ARCADE END")
+        else if(SceneManager.GetActiveScene().name =="M3 ARCADE RANK")
         {
             EndMode();
         }
+        else if(SceneManager.GetActiveScene().name == "CUT1" || SceneManager.GetActiveScene().name == "CUT2")
+        {
+            CutMode();
+        }
+        else if(SceneManager.GetActiveScene().name == "B5 ESCAPE")
+        {
+            SilenceMode();
+        }
+
         else
             ArcadeMode();
 
@@ -66,7 +77,7 @@ public class MUSICBOX : MonoBehaviour
         {
             TitleSong.Stop();
             EndSong.Stop();
-
+            CutSong.Stop();
             ArcadeSong.Play();
         }
     }
@@ -82,6 +93,16 @@ public class MUSICBOX : MonoBehaviour
         }
     }
 
+    public void CutMode()
+    {
+        if (!CutSong.isPlaying)
+        {
+            TitleSong.Stop();
+            ArcadeSong.Stop();
+            CutSong.Play();
+        }
+    }
+
     public void EndMode()
     {
         if (!EndSong.isPlaying)
@@ -89,6 +110,13 @@ public class MUSICBOX : MonoBehaviour
             ArcadeSong.Stop();
             EndSong.Play();
         }
+    }
+
+    public void SilenceMode()
+    {
+        TitleSong.Stop();
+        ArcadeSong.Stop();
+        CutSong.Play();
     }
 
 
