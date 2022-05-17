@@ -2348,10 +2348,11 @@ MonoBehaviour:
   DecentText: {fileID: 98841975}
   BadText: {fileID: 564529276}
   VeryBadText: {fileID: 1504248025}
-  BottonRank: 20000
-  LowRank: 35000
-  MidRank: 48000
-  HighRank: 57000
+  BottonRank: 50000
+  LowRank: 75000
+  MidRank: 100000
+  HighRank: 113000
+  Score_speed: 417
 --- !u!1 &2146997018
 GameObject:
   m_ObjectHideFlags: 0

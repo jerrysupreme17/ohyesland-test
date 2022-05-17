@@ -2491,6 +2491,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4389561969766233338, guid: 178b82269799c5f408f9a0d604996f0a, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389561970697902980, guid: 178b82269799c5f408f9a0d604996f0a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8650841835684153547, guid: 178b82269799c5f408f9a0d604996f0a, type: 3}
       propertyPath: m_text
       value: "\u7A69\u56FA\u88AB\u6D6A\u82B1\u8972\u64CA\u7684\u6D77\u76DC\u8239!"
@@ -4391,7 +4399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3f855b996ea944db39b094a106ff70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 113251965}
+  gameManager: {fileID: 150884409}
 --- !u!1 &1722215878
 GameObject:
   m_ObjectHideFlags: 0

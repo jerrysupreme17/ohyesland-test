@@ -29,6 +29,7 @@ public class ARCADE_END : MonoBehaviour
 
 
     float FunScore =0;
+    public float Score_speed;
 
     void Start()
     {
@@ -42,7 +43,7 @@ public class ARCADE_END : MonoBehaviour
 
         if(FunScore < finalScore)
         {
-            FunScore+=83;
+            FunScore+=Score_speed;
         }
         else
         {
