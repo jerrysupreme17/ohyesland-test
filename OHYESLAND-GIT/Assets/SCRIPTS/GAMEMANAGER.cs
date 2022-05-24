@@ -34,7 +34,7 @@ public class GAMEMANAGER : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(yes);
+        //Debug.Log(yes);
 
         /*
         if(CompleteUI.activeSelf)
@@ -155,12 +155,12 @@ public class GAMEMANAGER : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene("MENU");
+        SceneManager.LoadScene("M1 MENU");
     }
 
     public void LoadMap()
     {
-        SceneManager.LoadScene("MAP");
+        SceneManager.LoadScene("M2 MAP");
     }
 
     public void Loadlevel1()
@@ -201,6 +201,63 @@ public class GAMEMANAGER : MonoBehaviour
     public void Loadlevel8()
     {
         SceneManager.LoadScene(8);
+    }
+
+    public void LoadLevel_S1()
+    {
+        SceneManager.LoadScene(21);
+    }
+    public void LoadLevel_S2()
+    {
+        SceneManager.LoadScene(22);
+    }
+    public void LoadLevel_S3()
+    {
+        SceneManager.LoadScene(23);
+    }
+    public void LoadLevel_S4()
+    {
+        SceneManager.LoadScene(24);
+    }
+    public void LoadLevel_S5()
+    {
+        SceneManager.LoadScene(25);
+    }
+    public void LoadLevel_C1()
+    {
+        SceneManager.LoadScene(26);
+    }
+    public void LoadLevel_C2()
+    {
+        SceneManager.LoadScene(27);
+    }
+    public void LoadLevel_C3()
+    {
+        SceneManager.LoadScene(28);
+    }
+    public void LoadLevel_C4()
+    {
+        SceneManager.LoadScene(29);
+    }
+    public void LoadLevel_B1()
+    {
+        SceneManager.LoadScene(30);
+    }
+    public void LoadLevel_B2()
+    {
+        SceneManager.LoadScene(31);
+    }
+    public void LoadLevel_B3()
+    {
+        SceneManager.LoadScene(32);
+    }
+    public void LoadLevel_B4()
+    {
+        SceneManager.LoadScene(33);
+    }
+    public void LoadLevel_B5()
+    {
+        SceneManager.LoadScene(34);
     }
 
 

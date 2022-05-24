@@ -36,7 +36,7 @@ public class SCORES : MonoBehaviour
     void Update()
     {
 
-        if(SceneManager.GetActiveScene().name == "B5 ESCAPE" || SceneManager.GetActiveScene().name == "Z FINAL")
+        if(SceneManager.GetActiveScene().name == "B5 ESCAPE" || SceneManager.GetActiveScene().name == "Z FINAL" || SceneManager.GetActiveScene().name == "F_B5")
         {
             count = false;
         }
