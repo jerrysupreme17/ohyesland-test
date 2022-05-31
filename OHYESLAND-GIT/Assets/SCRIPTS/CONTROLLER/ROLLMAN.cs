@@ -40,15 +40,26 @@ public class ROLLMAN : MonoBehaviour
             rb.AddForce(Vector3.right * speed * Time.deltaTime);
         }
 
-        if(Input.GetKey(KeyCode.Space) && canJump)
+        if(Input.GetKey(KeyCode.Space)  && canJump)
         {
             rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
 
             canJump = false;
-
-
         }
-        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+
+        if (Input.GetKey(KeyCode.Return) && canJump)
+        {
+            rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
+
+            canJump = false;
+        }
+        if (Input.GetMouseButton(0) && canJump)
+        {
+            rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
+
+            canJump = false;
+        }
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         { 
         if(currentTeleporter != null)
         {
