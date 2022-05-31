@@ -59,15 +59,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENE/Z FINAL.unity
     guid: 1a2b8c68994edbb409137f448c4e03cf
+  - enabled: 0
+    path: Assets/SCENE/CUT3.unity
+    guid: 5a7583e32441e1040aedf43160f42d34
   - enabled: 1
     path: Assets/SCENE/M3 ARCADE RANK.unity
     guid: ed6fdc3b7d2177d4c93d68c9a5e08869
   - enabled: 1
     path: Assets/SCENE/M2 MAP.unity
     guid: 8e98818179282064da8816d9ed1fd589
-  - enabled: 1
-    path: Assets/SCENE/CUT3.unity
-    guid: 5a7583e32441e1040aedf43160f42d34
   - enabled: 1
     path: Assets/SCENE/FREEMODE/F_S1.unity
     guid: 667ef2314ad7304439ae07ebafde7415

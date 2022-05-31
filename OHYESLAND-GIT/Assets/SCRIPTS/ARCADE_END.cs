@@ -12,6 +12,8 @@ public class ARCADE_END : MonoBehaviour
 
     public TextMeshProUGUI RankText;
 
+    public TextMeshProUGUI PlayerText;
+
     public GameObject VeryGoodText;
 
     public GameObject GoodText;
@@ -41,7 +43,11 @@ public class ARCADE_END : MonoBehaviour
     {
         float finalScore = STATIC_SCORE.allScore;
 
-        if(FunScore < finalScore)
+        string PlayerName = STATIC_SCORE.playerName;
+
+       
+
+        if (FunScore < finalScore)
         {
             FunScore+=Score_speed;
         }
@@ -51,6 +57,7 @@ public class ARCADE_END : MonoBehaviour
         }
 
         EndScoreText.text = FunScore.ToString("0");
+        PlayerText.text = PlayerName;
 
 
         //EndScoreText.text = finalScore.ToString("0");
@@ -99,5 +106,10 @@ public class ARCADE_END : MonoBehaviour
         SceneManager.LoadScene(0);
 
         STATIC_SCORE.allScore = 0;
+    }
+
+    public void ToRanking()
+    {
+        SceneManager.LoadScene(35);
     }
 }
