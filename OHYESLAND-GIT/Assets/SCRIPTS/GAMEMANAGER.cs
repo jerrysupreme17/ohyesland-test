@@ -48,15 +48,15 @@ public class GAMEMANAGER : MonoBehaviour
 
         if(Input.GetKey(KeyCode.O))
         {
-            LoadNextScene();
+            //LoadNextScene();
         }
 
         if (Input.GetKey(KeyCode.I))
         {
-            LoadPreviosScene();
+            //LoadPreviosScene();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             //Application.LoadLevel(Application.loadedLevel);
 
@@ -66,12 +66,12 @@ public class GAMEMANAGER : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Escape))
         {
-            EndGame();
+            //EndGame();
         }
 
         if(Input.GetKey(KeyCode.M))
         {
-            LoadMap();
+            //LoadMap();
         }
 
         if(yes >=5 && !FailUI.activeSelf)

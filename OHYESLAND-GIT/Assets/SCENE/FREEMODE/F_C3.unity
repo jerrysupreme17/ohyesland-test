@@ -2555,6 +2555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'C_LEVEL SYSTEM '
       objectReference: {fileID: 0}
+    - target: {fileID: 259159190967738290, guid: 676551174eaf4b5449a90d84681a6337, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2632809568205265372, guid: 676551174eaf4b5449a90d84681a6337, type: 3}
       propertyPath: m_RootOrder
       value: 12
