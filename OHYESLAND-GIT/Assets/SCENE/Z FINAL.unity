@@ -1256,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4389561969766233341, guid: 6153bac9222dc614abd9f0d988d9f844, type: 3}
+      propertyPath: m_TagString
+      value: TRANS_CANVAS
+      objectReference: {fileID: 0}
     - target: {fileID: 8650841835684153547, guid: 6153bac9222dc614abd9f0d988d9f844, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4280690214

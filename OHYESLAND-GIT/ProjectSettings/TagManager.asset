@@ -28,6 +28,8 @@ TagManager:
   - NORMAL
   - GHOST
   - MRNO_BIG
+  - MUSICBOX
+  - TRANS_CANVAS
   layers:
   - Default
   - TransparentFX

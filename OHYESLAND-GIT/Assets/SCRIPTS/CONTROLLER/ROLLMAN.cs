@@ -30,17 +30,37 @@ public class ROLLMAN : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        /*
+        //¾î¦V¿é¤J·½§PÂ_
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) )
         {
             rb.AddForce(- Vector3.right * speed * Time.deltaTime);
         }
 
+        
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             rb.AddForce(Vector3.right * speed * Time.deltaTime);
         }
+        
+        
+        */
 
+        float HAxis = Input.GetAxis("Horizontal");
+        rb.AddForce(1f *HAxis * Vector3.right * speed * Time.deltaTime);
+        
+
+
+
+        //¸õÅD¿é¤J·½
         if(Input.GetKey(KeyCode.Space)  && canJump)
+        {
+            rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
+
+            canJump = false;
+        }
+
+        if(Input.GetKey(KeyCode.Joystick1Button1) && canJump)
         {
             rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
 
@@ -66,7 +86,12 @@ public class ROLLMAN : MonoBehaviour
             transform.position = currentTeleporter.GetComponent<Teleporter>().GetDestination().position;
         }
     }
+
+
+        
 }
+
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

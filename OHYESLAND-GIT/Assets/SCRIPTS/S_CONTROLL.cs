@@ -28,7 +28,7 @@ public class S_CONTROLL : MonoBehaviour
         GAMEMANAGER gm = gameManager.GetComponent<GAMEMANAGER>();
         LEVEL_LOADER level_loader = trans_Canvas.GetComponent<LEVEL_LOADER>();
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick1Button3))
         {
             //transform.Translate(new Vector2(-300, 0),Space.World);
             sfx1.Play();

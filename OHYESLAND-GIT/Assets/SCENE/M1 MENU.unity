@@ -922,6 +922,7 @@ MonoBehaviour:
   CompleteUI: {fileID: 466175363}
   FailUI: {fileID: 466175363}
   PauseUI: {fileID: 466175363}
+  trans_Canvas: {fileID: 466175363}
 --- !u!4 &537234839
 Transform:
   m_ObjectHideFlags: 0
@@ -2734,7 +2735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1223743640}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1758338100

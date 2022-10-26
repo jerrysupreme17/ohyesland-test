@@ -35,6 +35,15 @@ public class YESWORD : MonoBehaviour
         }
 
 
+        if (Input.GetKeyDown(KeyCode.Joystick1Button1) && hit < 21)
+        {
+            hit += 1;
+            sword_self.transform.localScale = sword_self.transform.localScale * 1.04f;
+            audioSource.Play();
+
+            StartCoroutine(Win());
+        }
+
     }
 
     IEnumerator Win()

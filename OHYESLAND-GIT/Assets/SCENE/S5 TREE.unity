@@ -728,6 +728,7 @@ MonoBehaviour:
   CompleteUI: {fileID: 923121429}
   FailUI: {fileID: 1963791701}
   PauseUI: {fileID: 2008617172098066592}
+  trans_Canvas: {fileID: 0}
 --- !u!1 &194621951
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +816,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405903749}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0669dc3019d93149856628c294c4a59, type: 3}
   m_Name: 

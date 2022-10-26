@@ -17,11 +17,28 @@ public class SLIDEMAN : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        float HAxis = Input.GetAxis("Horizontal");
+        float VAxis = Input.GetAxis("Vertical");
+
         if (rb.velocity.magnitude <=3)
         {
 
+            //新版
+            if(HAxis >= 0.9f || HAxis <=-0.9f)
+            {
+                rb.velocity = Vector3.right * speed * HAxis;
+            }
+
+            if (VAxis >= 0.9f || VAxis <= -0.9f)
+            {
+                rb.velocity = Vector3.up * speed * VAxis;
+
+            }
 
 
+            
+            //原版上下左右操作
             if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 rb.velocity = Vector3.up * speed;
@@ -41,6 +58,8 @@ public class SLIDEMAN : MonoBehaviour
             {
                 rb.velocity = Vector3.right * speed;
             }
+            
+
 
 
         }

@@ -26,6 +26,17 @@ public class SHOOTER : MonoBehaviour
     void Update()
     {
 
+        float HAxis = Input.GetAxis("Horizontal");
+
+
+
+        transform.Translate(Vector3.right * movespeed * Time.deltaTime * HAxis);
+        
+
+
+
+        //ÂÂª©
+        /*
         if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector3.left * movespeed * Time.deltaTime); 
@@ -35,9 +46,9 @@ public class SHOOTER : MonoBehaviour
         {
             transform.Translate(Vector3.right * movespeed * Time.deltaTime);
         }
+        */
 
-
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)  || Input.GetKeyDown(KeyCode.Joystick1Button1) ) 
         {
 
             Instantiate(bullet, firePoint.position,firePoint.rotation);

@@ -21,7 +21,9 @@ public class GAMEMANAGER : MonoBehaviour
 
      GameObject TimerBar;
 
-    
+    public GameObject trans_Canvas;
+
+    bool isPause =false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,11 +31,13 @@ public class GAMEMANAGER : MonoBehaviour
         Screen.SetResolution(1920, 1080, true);
 
         TimerBar = GameObject.FindGameObjectWithTag("TIMERBAR");
+        trans_Canvas = GameObject.FindGameObjectWithTag("TRANS_CANVAS");
     }
 
     // Update is called once per frame
     void Update()
     {
+        LEVEL_LOADER level_loader = trans_Canvas.GetComponent<LEVEL_LOADER>();
         //Debug.Log(yes);
 
         /*
@@ -46,7 +50,7 @@ public class GAMEMANAGER : MonoBehaviour
         }
         */
 
-        if(Input.GetKey(KeyCode.O))
+        if (Input.GetKey(KeyCode.O))
         {
             //LoadNextScene();
         }
@@ -56,7 +60,7 @@ public class GAMEMANAGER : MonoBehaviour
             //LoadPreviosScene();
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Joystick1Button5))
         {
             //Application.LoadLevel(Application.loadedLevel);
 
@@ -87,11 +91,26 @@ public class GAMEMANAGER : MonoBehaviour
 
         }
 
-        /*if(CompleteUI.activeSelf || FailUI.activeSelf)
+        if(CompleteUI.activeSelf == true)
         {
-            TimerBar.SetActive(false);
+            if (Input.GetKeyDown(KeyCode.Joystick1Button3))
+            {
+                //LoadNextScene();
+                level_loader.LoadNextLevel();
+            }
         }
-        */
+
+        if(Input.GetKeyDown(KeyCode.Joystick1Button7))
+        {
+            if(isPause)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
 
     }
 
@@ -99,12 +118,16 @@ public class GAMEMANAGER : MonoBehaviour
     {
         PauseUI.SetActive(true);
         Time.timeScale = 0f;
+        isPause = true;
     }
+
+
 
     public void Resume()
     {
         PauseUI.SetActive(false);
         Time.timeScale = 1f;
+        isPause = false;
     }
 
     public void Reload()
