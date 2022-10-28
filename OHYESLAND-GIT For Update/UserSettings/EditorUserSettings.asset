@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!162 &1
+EditorUserSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 4
+  m_ConfigSettings:
+    RecentlyUsedSceneGuid-0:
+      value: 51010102550d0c0e0b5a552043730b44444e4b727d2a72652f7a1e32e4b8306d
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5b540d5e5d04510a5a575e7a42730944121640727d7e2269282d4c35e6b56c61
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5a50005f5c075f5e0b560d7646220f444e4f1d2f2f2e7036297b1b37e1b16169
+      flags: 0
+    RecentlyUsedScenePath-0:
+      value: 22424703114646682e2b22075f006a2447590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 22424703114646682e2b22075f000b503b222b030f681518021e5326ece92021
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646682e2b22075f100e50253f37051868777e38271427fb
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646682e2b22075f010c503e223904180d027005062800c7ae2136ebf32f
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646682e2b22075f006a2445590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646682e2b22075f000d50253b310e0968011f010f5326ece92021
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646682e2b22075f000c50343e330f623d28393930
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646682e2b22075f000e503d3e3b016c0a071c0167083debf42d
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646682e2b22075f191f363f393906623d28393930
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646682e2b22075f0e0e503b32361f623d28393930
+      flags: 0
+    vcSharedLogLevel:
+      value: 0d5e400f0650
+      flags: 0
+  m_VCAutomaticAdd: 1
+  m_VCDebugCom: 0
+  m_VCDebugCmd: 0
+  m_VCDebugOut: 0
+  m_SemanticMergeMode: 2
+  m_DesiredImportWorkerCount: 2
+  m_StandbyImportWorkerCount: 2
+  m_IdleImportWorkerShutdownDelay: 60000
+  m_VCShowFailedCheckout: 1
+  m_VCOverwriteFailedCheckoutAssets: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
+  m_VCAllowAsyncUpdate: 1
+  m_ArtifactGarbageCollection: 1
