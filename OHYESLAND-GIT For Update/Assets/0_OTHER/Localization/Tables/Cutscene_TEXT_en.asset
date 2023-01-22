@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cutscene_TEXT_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 28a8e7e5444e3454299bbdebb8d4c417, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 78846836736
+    m_Localized: 1 HOUR AGO...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472004116480
+    m_Localized: OHYESLAND is a happy place, everyone celebrates the good time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980513144832
+    m_Localized: The bad guys emerge, everybody freaks the shit out!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376321224704
+    m_Localized: The yesman bros show up, ready to save the world!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2873410928640
+    m_Localized: LATER...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2972048375808
+    m_Localized: The furious MR.NO became weaker, he ran away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3207067811840
+    m_Localized: The bad guys flee, but it turns out there is no way out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3434654941184
+    m_Localized: The YESMAN bros turn into the YESWORD, ready to beat them up!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

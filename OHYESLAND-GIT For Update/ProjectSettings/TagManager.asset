@@ -30,6 +30,8 @@ TagManager:
   - MRNO_BIG
   - MUSICBOX
   - TRANS_CANVAS
+  - SUSHI
+  - STEAK
   layers:
   - Default
   - TransparentFX

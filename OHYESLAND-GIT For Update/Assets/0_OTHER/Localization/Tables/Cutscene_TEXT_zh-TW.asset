@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cutscene_TEXT_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: 28a8e7e5444e3454299bbdebb8d4c417, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 78846836736
+    m_Localized: "\u524D\u60C5\u63D0\u8981"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472004116480
+    m_Localized: "\u6B23\u6B23\u5411\u69AE\u7684\u5967\u723A\u65AF\u6A02\u5712\uFF0C\u5927\u5BB6\u90FD\u4E00\u540C\u6176\u795D\u7F8E\u597D\u6642\u5149!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 980513144832
+    m_Localized: "\u58DE\u86CB\u4E09\u4EBA\u7D44\u7A81\u7136\u51FA\u73FE\uFF0C\u5687\u5F97\u5927\u5BB6\u63AA\u624B\u4E0D\u53CA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376321224704
+    m_Localized: "\u723A\u65AF\u5144\u5F1F\u51FA\u5834\u5C0D\u4ED8\u58DE\u4EBA\uFF0C\u62EF\u6551\u6A02\u5712\u548C\u5E73!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2873410928640
+    m_Localized: "\u4E0D\u4E45\u4E4B\u5F8C..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2972048375808
+    m_Localized: "\u66B4\u6012\u7684\u90AA\u60E1\u5148\u751F\u8B8A\u5F31\u4E86\uFF0C\u53EA\u597D\u9078\u64C7\u843D\u8352\u800C\u9003"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3207067811840
+    m_Localized: "\u58DE\u86CB\u4E09\u4EBA\u7D44\u5306\u5FD9\u9003\u9038\uFF0C\u537B\u767C\u73FE\u8D70\u6295\u7121\u8DEF!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3434654941184
+    m_Localized: "\u723A\u65AF\u5144\u5F1F\u8B8A\u8EAB\u6700\u7D42\u578B\u614B\uFF0C\u7D66\u58DE\u86CB\u5011\u4F86\u500B\u75DB\u5FEB!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
